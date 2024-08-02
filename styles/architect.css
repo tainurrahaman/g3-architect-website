@@ -40,7 +40,6 @@
     align-items: center;
     justify-content: right;
     margin: auto 0px;
-
 }
 
 .menu-item a {
@@ -48,4 +47,35 @@
     margin-left: 40px;
     font-size: 1.1rem;
     font-weight: 600;
+}
+
+/* Responsive Design */
+
+/* For small Devices */
+@media screen and (max-width:572px) {
+    .brand {
+        padding: 10px 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-title h3 {
+        margin: 10px 0px 20px;
+        font-size: 2rem;
+    }
+
+    .menu-item a {
+        margin: 10px;
+        font-size: 1rem;
+    }
+}
+
+/* For Medium Devices */
+@media screen and (min-width:572px) and (max-width:992px) {
+    .brand {
+        padding: 10px 70px;
+    }
 }
