@@ -1,0 +1,51 @@
+/* Shared Styles */
+.ffamily {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Dark -01 */
+.primary-color {
+    color: rgba(19, 19, 19, 1);
+}
+
+/* Dark-02 */
+.secondary-color {
+    color: rgba(66, 66, 66, 1);
+}
+
+/* Dark-03 */
+.tertiary-color {
+    color: rgba(114, 114, 114, 1);
+}
+
+/* Navbar Styles */
+
+.brand {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 10px 150px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.navbar-title {
+    font-size: 2.3rem;
+}
+
+.menu-item {
+    align-items: center;
+    justify-content: right;
+    margin: auto 0px;
+
+}
+
+.menu-item a {
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
