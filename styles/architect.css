@@ -254,6 +254,46 @@
     .feature-btn {
         margin: 20px 0px;
     }
+
+    .architect {
+        margin: 20px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .architect-des {
+        margin: 0px;
+    }
+
+    .architect-feature h3 {
+        font-size: 1.8rem;
+        padding-right: 0px;
+        margin: 20px 0px 10px;
+    }
+
+    .category {
+        padding: 5px 0px 5px 15px;
+    }
+
+    .category h3 {
+        font-size: 1rem;
+        color: rgba(19, 19, 19, 1);
+        margin: 10px 0px;
+    }
+
+    .category p {
+        font-size: 0.9rem;
+        margin: 10px 0px;
+    }
+
+    .architect-image img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .architect-btn {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
 }
 
 /* For Medium Devices */
@@ -289,4 +329,7 @@
         padding: 10px 100px;
     }
 
+    .architect {
+        margin: 40px 0px;
+    }
 }
