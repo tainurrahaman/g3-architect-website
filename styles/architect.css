@@ -73,6 +73,7 @@
 
 .brand-title p {
     font-size: 1rem;
+    text-align: justify;
 }
 
 
@@ -95,12 +96,30 @@
 
     .navbar-title h3 {
         margin: 10px 0px 20px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .menu-item a {
-        margin: 10px;
-        font-size: 1rem;
+        margin: 5px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+
+    .brand-title {
+        padding: 0px 0px;
+    }
+
+    .brand-title h2 {
+        font-size: 2rem;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        padding: 15px 20px;
+        font-size: 0.9rem;
+        margin-bottom: 30px;
     }
 }
 
@@ -108,5 +127,28 @@
 @media screen and (min-width:572px) and (max-width:992px) {
     .brand {
         padding: 10px 70px;
+    }
+
+    .menu-item a {
+        margin-left: 15px;
+    }
+
+    .brand-title {
+        padding: 0px 100px;
+    }
+
+    .brand-title h2 {
+        font-size: 2rem;
+        margin: 20px 0px;
+    }
+
+    .navbar-title h3 {
+        font-size: 1.5rem;
+    }
+
+    .menu-item a {
+        margin: 5px;
+        font-size: 0.9rem;
+        font-weight: 600;
     }
 }
