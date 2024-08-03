@@ -19,6 +19,16 @@
     color: rgba(114, 114, 114, 1);
 }
 
+.btn-primary {
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* Navbar Styles */
 
 .brand {
@@ -47,6 +57,20 @@
     margin-left: 40px;
     font-size: 1.1rem;
     font-weight: 600;
+}
+
+.brand-title {
+    text-align: center;
+    padding: 0px 200px;
+}
+
+.brand-title h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.brand-title p {
+    font-size: 1rem;
 }
 
 /* Responsive Design */
