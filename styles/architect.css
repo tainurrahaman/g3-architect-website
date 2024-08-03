@@ -1,4 +1,8 @@
 /* Shared Styles */
+.hide {
+    display: none;
+}
+
 .ffamily {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -33,6 +37,14 @@
 
 .structure {
     padding: 10px 150px;
+}
+
+.brand-title p,
+.feature-para,
+.architect-feature p {
+    font-size: 1rem;
+    text-align: justify;
+    color: rgba(114, 114, 114, 1);
 }
 
 /* Navbar Styles */
@@ -73,12 +85,6 @@
 .brand-title h2 {
     font-size: 3rem;
     font-weight: bold;
-}
-
-.brand-title p,
-.feature-para {
-    font-size: 1rem;
-    text-align: justify;
 }
 
 
@@ -127,6 +133,65 @@
     padding: 15px 20px;
     font-size: 1rem;
 }
+
+/* Most useful feature styles */
+
+.architect {
+    display: flex;
+    margin: 80px 0px;
+}
+
+.architect-image,
+.architect-des {
+    flex: 1;
+}
+
+.architect-des {
+    margin-right: 100px;
+}
+
+.architect-feature h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+.category {
+    padding: 5px 30px;
+    background-color: #fcfafa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.category h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(19, 19, 19, 1);
+}
+
+.category p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(114, 114, 114, 1);
+}
+
+.architect-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.architect-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.architect-btn {
+    max-width: 50%;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+
 
 /* Responsive Design */
 
