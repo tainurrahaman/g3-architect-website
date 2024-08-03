@@ -100,6 +100,11 @@
     align-items: center;
 }
 
+.feature-image,
+.feature-description {
+    flex: 1;
+}
+
 .feature-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -108,8 +113,9 @@
 }
 
 .feature-image img {
-    width: 280px;
+    /* width: 280px; */
     height: auto;
+    max-width: 100%;
 }
 
 .quick {
@@ -189,6 +195,7 @@
     max-width: 50%;
     margin-top: 80px;
     margin-bottom: 0px;
+    cursor: none;
 }
 
 
@@ -233,6 +240,20 @@
         font-size: 0.9rem;
         margin-bottom: 30px;
     }
+
+    .structure {
+        padding: 20px;
+    }
+
+    .feature {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+
+    .feature-btn {
+        margin: 20px 0px;
+    }
 }
 
 /* For Medium Devices */
@@ -263,4 +284,9 @@
         font-size: 0.9rem;
         font-weight: 600;
     }
+
+    .structure {
+        padding: 10px 100px;
+    }
+
 }
