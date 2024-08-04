@@ -39,21 +39,25 @@
     padding: 10px 150px;
 }
 
+.architect-feature h3,
+.fact-description h3,
+.sponsor-description h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    /* padding-right: 50px; */
+    color: rgba(19, 19, 19, 1);
+}
+
 .brand-title p,
 .feature-para,
 .architect-feature p,
-.fact-description p {
+.fact-description p,
+.sponsor-description {
     font-size: 1rem;
     text-align: justify;
     color: rgba(114, 114, 114, 1);
 }
 
-.architect-feature h3,
-.fact-description h3 {
-    font-size: 2.2rem;
-    font-weight: 600;
-    padding-right: 50px;
-}
 
 /* Navbar Styles */
 
@@ -232,6 +236,33 @@
     font-weight: 600;
     color: rgba(114, 114, 114, 1);
     margin-top: 5px;
+}
+
+
+.sponsor-description {
+    text-align: center;
+    margin: 100px 250px 30px;
+}
+
+.sponsor-description h3 {
+    margin: 20px 0px;
+}
+
+.sponsor-description p {
+    margin: 5px 0px;
+}
+
+.sponsor-image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 50px;
+    border: 2px solid tomato;
+}
+
+.sponsor-image img {
+    max-width: 50%;
+    padding: 0px 50px;
+    filter: grayscale(100%);
 }
 
 /* Responsive Design */
