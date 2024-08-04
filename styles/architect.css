@@ -411,4 +411,17 @@
     .architect-des {
         margin-right: 20px;
     }
+
+    .fact-icon {
+        margin: 50px 10px;
+        gap: 30px;
+    }
+
+    .fact {
+        padding: 25px 0px;
+    }
+
+    .fact h1 {
+        font-size: 2rem;
+    }
 }
