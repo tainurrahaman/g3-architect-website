@@ -413,8 +413,25 @@
         margin: 0px 0px;
     }
 
+    .sponsor-image {
+        margin-bottom: 5px;
+    }
+
     .sponsor-image img {
         padding: 5px 10px;
+    }
+
+    .structure {
+        padding: 10px 20px;
+    }
+
+    .footer-container {
+        padding: 5px 50px;
+        margin-bottom: 20px;
+    }
+
+    .footer-container p {
+        font-size: 0.8rem;
     }
 }
 
