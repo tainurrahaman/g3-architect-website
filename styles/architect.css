@@ -462,4 +462,8 @@
     .fact h1 {
         font-size: 2rem;
     }
+
+    .sponsor-description {
+        margin: 50px 150px;
+    }
 }
