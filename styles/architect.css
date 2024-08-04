@@ -256,7 +256,6 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-bottom: 50px;
-    border: 2px solid tomato;
 }
 
 .sponsor-image img {
@@ -395,6 +394,14 @@
 
     .fact p {
         font-size: 0.8rem;
+    }
+
+    .sponsor-description {
+        margin: 0px 0px;
+    }
+
+    .sponsor-image img {
+        padding: 5px 10px;
     }
 }
 
