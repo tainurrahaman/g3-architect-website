@@ -376,21 +376,15 @@
         padding: 10px 40px;
     }
 
+    .architect-engineer {
+        margin: 20px 0px;
+    }
+
     .architect {
         margin: 40px 0px;
     }
 
     .architect-des {
         margin-right: 20px;
-    }
-
-    .architect-image {
-        width: calc(100% - 300px);
-        border: 2px solid tomato;
-    }
-
-    .architect-image img {
-        max-width: 80%;
-        justify-content: right;
     }
 }
