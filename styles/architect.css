@@ -150,20 +150,41 @@
 
 /* Most useful feature styles */
 
-.architect {
+.architect-engineer {
     display: flex;
     margin: 80px 0px;
 }
 
-.architect-image,
-.architect-des {
-    flex: 1;
+.architect {
+    display: flex;
+    flex-direction: column;
 }
 
 .architect-des {
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
+
+.architect-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.architect-image img {
+    max-width: 70%;
+    height: auto
+}
+
+.architect-btn {
+    max-width: 50%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    cursor: none;
+}
+
+.category-container {
+    padding-top: 150px;
+}
 
 .category {
     padding: 5px 30px;
@@ -182,23 +203,6 @@
     font-size: 1rem;
     font-weight: 500;
     color: rgba(114, 114, 114, 1);
-}
-
-.architect-image {
-    display: flex;
-    flex-direction: column;
-}
-
-.architect-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-.architect-btn {
-    max-width: 50%;
-    margin-top: 80px;
-    margin-bottom: 0px;
-    cursor: none;
 }
 
 .fact-icon {
@@ -285,6 +289,11 @@
         margin: 20px 0px;
     }
 
+    .architect-engineer {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+
     .architect {
         margin: 20px 0px;
         flex-direction: column-reverse;
@@ -298,6 +307,14 @@
         font-size: 1.8rem;
         padding-right: 0px;
         margin: 20px 0px 10px;
+    }
+
+    .architect-btn {
+        max-width: 70%;
+    }
+
+    .category-container {
+        padding-top: 10px;
     }
 
     .category {
@@ -356,10 +373,24 @@
     }
 
     .structure {
-        padding: 10px 100px;
+        padding: 10px 40px;
     }
 
     .architect {
         margin: 40px 0px;
+    }
+
+    .architect-des {
+        margin-right: 20px;
+    }
+
+    .architect-image {
+        width: calc(100% - 300px);
+        border: 2px solid tomato;
+    }
+
+    .architect-image img {
+        max-width: 80%;
+        justify-content: right;
     }
 }
