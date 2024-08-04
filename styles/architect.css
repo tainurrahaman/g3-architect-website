@@ -496,4 +496,8 @@
     .sponsor-description {
         margin: 50px 150px;
     }
+
+    .footer-container {
+        padding: 10px 100px;
+    }
 }
