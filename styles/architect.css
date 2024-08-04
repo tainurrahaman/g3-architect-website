@@ -206,7 +206,7 @@
 }
 
 .fact-icon {
-    margin: 100px 50px;
+    margin: 50px 50px;
     display: flex;
     justify-content: space-evenly;
     gap: 80px;
@@ -340,6 +340,30 @@
     .architect-btn {
         margin-top: 20px;
         margin-bottom: 0px;
+    }
+
+    .fact-description h3 {
+        margin: 20px 0px;
+        font-size: 1.7rem;
+    }
+
+    .fact-icon {
+        margin: 20px;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fact {
+        padding: 10px 0px;
+    }
+
+    .fact h1 {
+        font-size: 1.7rem;
+    }
+
+    .fact p {
+        font-size: 0.8rem;
     }
 }
 
