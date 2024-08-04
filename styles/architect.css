@@ -41,10 +41,18 @@
 
 .brand-title p,
 .feature-para,
-.architect-feature p {
+.architect-feature p,
+.fact-description p {
     font-size: 1rem;
     text-align: justify;
     color: rgba(114, 114, 114, 1);
+}
+
+.architect-feature h3,
+.fact-description h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding-right: 50px;
 }
 
 /* Navbar Styles */
@@ -156,11 +164,6 @@
     margin-right: 100px;
 }
 
-.architect-feature h3 {
-    font-size: 2.2rem;
-    font-weight: 600;
-    padding-right: 50px;
-}
 
 .category {
     padding: 5px 30px;
@@ -198,7 +201,34 @@
     cursor: none;
 }
 
+.fact-icon {
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
 
+.fact {
+    border: 1px solid #FF900E;
+    padding: 25px 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.fact h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: rgba(66, 66, 66, 1);
+    margin: 10px 0px 5px;
+}
+
+.fact p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(114, 114, 114, 1);
+    margin-top: 5px;
+}
 
 /* Responsive Design */
 
